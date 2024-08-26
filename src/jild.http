@@ -1,0 +1,27 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+content-type: application/json
+
+{
+    "name":"manuel",
+    "apellido":"gil",
+    "email":"manuel@sena.co",
+    "telefono": 3134660811
+}
+###
+
+GET http://localhost:9000/api/users/66bf8fd0a64bca50c2e2a95b HTTP/1.1
+###
+PUT http://localhost:9000/api/users/66bf8fd0a64bca50c2e2a95b HTTP/1.1
+content-type: application/json
+
+{
+    "name":"ingrid",
+    "apellido":"gil",
+    "email":"ingrid@sena.co",
+    "telefono": 3134660811
+}
+###
+DELETE http://localhost:9000/api/users/66bf8fd0a64bca50c2e2a95b HTTP/1.1
+
+
